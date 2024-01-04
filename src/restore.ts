@@ -119,7 +119,7 @@ async function installSccacheWindows() : Promise<void> {
   await installSccacheFromGitHub(
     "v0.7.4",
     "x86_64-pc-windows-msvc",
-    "ca71810def1a522e8c676bc50ee270554772b72e8a5917f34a76de636431f3a0",
+    "820d60f1a5e6bf9aa2a39d9cfd54be45ede019067b7e5d9cb22fc27dc332611f",
     // TODO find a better place
     `${process.env.USERPROFILE}\\.cargo\\bin`,
     "sccache.exe"

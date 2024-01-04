@@ -59671,7 +59671,7 @@ async function installSccacheLinux() {
     await installSccacheFromGitHub("v0.7.4", "x86_64-unknown-linux-musl", "12e5ad69eadb45f69320967f8e26ab5ca7f8acff15eb9900e123674f3a070595", "/usr/local/bin/", "sccache");
 }
 async function installSccacheWindows() {
-    await installSccacheFromGitHub("v0.7.4", "x86_64-pc-windows-msvc", "ca71810def1a522e8c676bc50ee270554772b72e8a5917f34a76de636431f3a0", 
+    await installSccacheFromGitHub("v0.7.4", "x86_64-pc-windows-msvc", "820d60f1a5e6bf9aa2a39d9cfd54be45ede019067b7e5d9cb22fc27dc332611f", 
     // TODO find a better place
     `${external_process_namespaceObject.env.USERPROFILE}\\.cargo\\bin`, "sccache.exe");
 }
